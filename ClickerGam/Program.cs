@@ -57,6 +57,10 @@ namespace ClickerGam
             }
             return pointer;
         }
+        public static void Color(int value)
+        {
+
+        }
         public static void SaveGame(int saveNum, int points, string saveName)
         {
             StreamWriter sw = new StreamWriter(dirPath+@"\saveSlot_" + saveNum + ".txt",false);
