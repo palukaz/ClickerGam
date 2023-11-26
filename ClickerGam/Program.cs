@@ -14,7 +14,7 @@ namespace ClickerGam
             Console.WriteLine("0: Выйти");
             Console.WriteLine("111: Создать новое сохранение");
             Console.WriteLine("222: Удалить сохранение");
-            Console.WriteLine("333: Поиск");
+            Console.WriteLine("333: Поиск сохранения");
         }
         public static int Search()
         {
